@@ -70,7 +70,7 @@ body {
     left: 12px; /* Alinhando à esquerda do campo */
     transform: translateY(-50%);
     width: 30px; /* Tamanho aumentado do ícone */
-    height: 30px; /* Tamanho aumentado do ícone */
+    height: 25px; /* Tamanho aumentado do ícone */
 }
 
 input::placeholder {
