@@ -4,6 +4,7 @@
     box-sizing: border-box;
     font-family: "Rubik", sans-serif;
     -webkit-font-smoothing: antialiased;
+    
 }
 
 @font-face {
@@ -50,6 +51,7 @@ body {
     background-color: var(--fundinho);
     color: var(--letra);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 30px;
 }
 
 .login-container h2 {
@@ -67,30 +69,30 @@ body {
 .input-icon {
     position: absolute;
     top: 50%;
-    left: 12px; /* Alinhando à esquerda do campo */
+    left: 12px; 
     transform: translateY(-50%);
-    width: 30px; /* Tamanho aumentado do ícone */
-    height: 25px; /* Tamanho aumentado do ícone */
+    width: 30px; 
+    height: 25px;
 }
 
 input::placeholder {
     color: var(--letra);  
     text-align: left;   
-
 }
 
 input {
     width: 100%;
-    padding: 14px 14px 14px 35px; 
+    padding: 14px 14px 14px 45px; 
     margin: 12px 0;
-    border:none;
+    border: none;
     border-radius: 5px;
     font-family: alyssum;
     background-color: var(--fundinho);
+    border-bottom: solid #fff 1px ;
 }
 
 input:focus {
-    outline: none; /* Removendo o contorno ao focar */
+    outline: none; 
     background-color: var(--fundinho); 
 }
 
@@ -101,7 +103,7 @@ button {
     background-color: var(--bg2-color);
     color: var(--letra);
     font-size: 16px;
-    border-radius: 5px;
+    border-radius: 15px;
     cursor: pointer;
     font-family: alyssum;
     font-weight: bold;
@@ -110,7 +112,7 @@ button {
 
 button:hover {
     transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out;
-    transform: scale(1.1);
+    transform: scale(1.05);
     background-color: var(--bg-color);
     color: var(--botao);
 }
@@ -126,3 +128,7 @@ a:hover {
 
 .login-container p {
     margin-top: 40px; }
+
+.cd{
+        font-family: ;
+}
